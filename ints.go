@@ -12,7 +12,7 @@ func CrossInt64s(a, b []int64) bool {
 	return false
 }
 
-func InSInt64s(a []int64, b int64) bool {
+func InInt64s(a []int64, b int64) bool {
 	for _, av := range a {
 		if av == b {
 			return true
